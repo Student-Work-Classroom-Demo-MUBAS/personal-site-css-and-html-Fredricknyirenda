@@ -49,6 +49,44 @@ nav:hover a.active-home:not(:hover) {
     font-weight: normal;
 }
 
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+@keyframes display-content {
+    0% {
+        top: -200px;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    100% {
+        top: 20px;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.hero {
+    position: relative;
+
+}
+
+.hero h1 {
+    animation: display-content 1.5s ease-out 1.2s forwards;
+    position: relative;
+    top: -200px;
+    color: #04b7c1;
+
+}
+
+.high-light {
+    color: white;
+}
+
 .my-name {
     padding-top: 15px;
     font-size: 17px;
@@ -67,7 +105,8 @@ nav:hover a.active-home:not(:hover) {
 }
 
 .card {
-    margin-top: 30px;
+    flex-shrink: 0;
+    margin-top: 50px;
     margin-left: 15px;
     width: 180px;
     height: 500px;
@@ -79,23 +118,23 @@ nav:hover a.active-home:not(:hover) {
 }
 
 .title {
-    margin-top: 14px;
-    font-size: 14px;
+    margin-top: 15px;
+    font-size: 15px;
     color: #04b7c1;
     margin-bottom: 15px;
-    font-weight: 200;
+    font-weight: bold;
 }
 
 .subtitle {
     font-size: 14px;
     color: #04b7c1;
     margin-bottom: 20px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .button-1 {
     display: inline;
-    margin-top: 15px;
+    margin-top: 20px;
     background-color: #04b7c1;
     border: 2px solid #04b7c1;
     border-radius: 40px;
@@ -103,12 +142,31 @@ nav:hover a.active-home:not(:hover) {
     font-size: 14px;
     padding: 5px;
     margin-bottom: 15px;
+    color: #000508;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.button-1:hover {
+    background: transparent;
+    color: #04b7c1;
+    box-shadow: none;
 }
 
 .social-media {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .social-media a {
     color: #04b7c1;
+    padding: 6px;
+    font-size: 20px;
+    transition: .5s;
+    border-radius: 50%;
+}
+
+.social-media a:hover {
+    background: #04b7c1;
+    color: #000508;
+    box-shadow: 0 0 10px #04b7c1;
 }

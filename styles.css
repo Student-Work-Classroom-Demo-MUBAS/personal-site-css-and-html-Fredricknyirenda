@@ -48,3 +48,67 @@ nav:hover a.active-home:not(:hover) {
     color: white;
     font-weight: normal;
 }
+
+.my-name {
+    padding-top: 15px;
+    font-size: 17px;
+    color: #04b7c1;
+    font-weight: bold;
+
+}
+
+.profile-img {
+    width: 140px;
+    height: 200px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin: 20px auto 10px;
+    background-color: #eee;
+}
+
+.card {
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 180px;
+    height: 500px;
+    background-color: #000508;
+    border-radius: 10px;
+    box-shadow:
+        0 8px 16px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.title {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #04b7c1;
+    margin-bottom: 15px;
+    font-weight: 200;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #04b7c1;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.button-1 {
+    display: inline;
+    margin-top: 15px;
+    background-color: #04b7c1;
+    border: 2px solid #04b7c1;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #04b7c1;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media a {
+    color: #04b7c1;
+}

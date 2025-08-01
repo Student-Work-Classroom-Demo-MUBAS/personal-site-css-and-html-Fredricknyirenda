@@ -296,12 +296,27 @@ nav:hover a.active-home:not(:hover) {
 
 }
 
-.projects {
-    margin-top: 20px;
-}
-
 .projects-section,
 .about-me-section {
     margin-top: 20px;
     margin-left: 20%;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 220px;
+
+}
+
+.projects-grid img {
+    width: 100%;
+    height: 100px;
+    width: 100px;
+    display: block;
+    border-radius: 8px;
+    /* optional rounded corners */
+    object-fit: cover;
+    /* ensures the image covers its container */
 }

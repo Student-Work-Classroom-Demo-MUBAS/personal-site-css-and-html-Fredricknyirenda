@@ -58,7 +58,7 @@
 | About Me Section          | Personal, detailed, meets word count | Meets requirements | Basic info | Missing/unclear |
 | Contact Section           | Well-styled, clear info | Meets requirements | Basic info | Missing/unclear |
 | HTML Quality              | Valid, semantic, commented | Minor issues | Some errors | Major errors |
-| CSS Quality               | Well-organized, commented | Minor issues | Basic styling | Poor styling |
+| CSS Quality               | Well-organized, commented | M inor issues | Basic styling | Poor styling |
 | Responsiveness            | Works on all devices | Minor issues | Works on some devices | Not responsive |
 | Accessibility             | All images have alt text | Most images have alt text | Some alt text | No alt text |
 | README Reflection         | Thoughtful, clear, meets word count | Meets requirements | Basic | Missing |

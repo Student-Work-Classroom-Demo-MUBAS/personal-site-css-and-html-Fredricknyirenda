@@ -71,6 +71,10 @@ nav:hover a.active-home:not(:hover) {
     gap: 40px;
 }
 
+.button-7 {
+    margin-top: 2px;
+}
+
 @keyframes display-content {
     0% {
         top: -200px;
@@ -79,7 +83,7 @@ nav:hover a.active-home:not(:hover) {
     }
 
     100% {
-        top: 100px;
+        top: 50px;
         opacity: 1;
         visibility: visible;
     }
@@ -91,11 +95,15 @@ nav:hover a.active-home:not(:hover) {
     margin-left: 20%;
 }
 
-.button-2 {
+.button-2,
+.button-5,
+.button-6 {
     margin-left: 50px;
 }
 
-.button-4 {
+.button-4,
+.button-5,
+.button-6 {
     position: relative;
     background: transparent;
     box-shadow: none;
@@ -105,30 +113,42 @@ nav:hover a.active-home:not(:hover) {
     border: 2px solid #04b7c1;
     border-radius: 10px;
     display: inline-block;
-    margin-top: 20px;
     font-weight: bold;
     cursor: pointer;
     width: 100px;
     height: 70px;
     align-items: center;
+    margin-top: 20px;
 }
 
-.button-4 .number {
-    padding-left: 28%;
+.button-4 .number,
+.button-5 .number,
+.button-6 .number {
+    padding-top: 10px;
     font-size: 20px;
     color: #04b7c1;
+    text-align: center;
 }
 
-.button-4 .label {
+.button-4 .label,
+.button-5 .label,
+.button-6 .label {
+    padding-top: 5px;
     font-size: 14px;
     color: #04b7c1;
+    text-align: center;
 }
 
 .hero h1,
 .hero .button-2,
+.button-7,
 .hero .button-3,
 .button-4,
-.about-me {
+.button-6,
+.button-5,
+.about-me,
+.about-me-text p,
+.about-me-section {
     position: relative;
     animation: display-content 1.5s ease-out 1.2s forwards;
     visibility: hidden;
@@ -231,6 +251,7 @@ nav:hover a.active-home:not(:hover) {
 }
 
 .button-2,
+.button-7,
 .button-3 {
     position: relative;
     background: transparent;
@@ -259,7 +280,15 @@ nav:hover a.active-home:not(:hover) {
 
 }
 
+.about-me-text p {
+    position: relative;
+    color: #04b7c1;
+    font-weight: 500;
+    width: 55%;
+
+}
+
 .about-me-section {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 20%;
 }

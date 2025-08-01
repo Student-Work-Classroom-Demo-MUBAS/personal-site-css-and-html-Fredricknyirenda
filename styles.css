@@ -5,7 +5,7 @@ header {
 }
 
 section {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 body,
@@ -148,7 +148,9 @@ nav:hover a.active-home:not(:hover) {
 .button-5,
 .about-me,
 .about-me-text p,
-.about-me-section {
+.about-me-section,
+.projects,
+.projects-section {
     position: relative;
     animation: display-content 1.5s ease-out 1.2s forwards;
     visibility: hidden;
@@ -280,6 +282,12 @@ nav:hover a.active-home:not(:hover) {
 
 }
 
+.projects {
+    font-size: 17px;
+    color: #04b7c1;
+    font-weight: bold;
+}
+
 .about-me-text p {
     position: relative;
     color: #04b7c1;
@@ -288,6 +296,11 @@ nav:hover a.active-home:not(:hover) {
 
 }
 
+.projects {
+    margin-top: 20px;
+}
+
+.projects-section,
 .about-me-section {
     margin-top: 20px;
     margin-left: 20%;
